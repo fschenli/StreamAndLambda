@@ -17,7 +17,7 @@ public class AnyClass {
 		AnyEntity anyEntity5 = new AnyEntity("Li", 27, 9000d);
 		List<AnyEntity> anyEntities = Arrays.asList(anyEntity0, anyEntity1, anyEntity2, anyEntity3, anyEntity4, anyEntity5);
 		List<AnyEntity> sortedEntities = anyEntities.stream().filter(x -> x.getSalary() > 5000d)
-		.sorted((x, y) -> Integer.compare(y.getAge(), x.getAge()))
+		.sorted((x, y) -> Integer.compare(y.getAge(), x.getAge()))// Descending Order
 		.collect(Collectors.toList());
 		System.out.println(sortedEntities);
 	}
