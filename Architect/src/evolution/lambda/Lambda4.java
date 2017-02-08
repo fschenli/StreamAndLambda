@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.lambda;
+package evolution.lambda;
 
 /**
  * @author Benjamin Winterberg

@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.stream;
+package evolution.stream;
 
 import java.io.IOException;
 import java.math.BigDecimal;

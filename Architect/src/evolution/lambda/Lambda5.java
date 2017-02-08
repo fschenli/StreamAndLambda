@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.lambda;
+package evolution.lambda;
 
 import java.util.HashMap;
 import java.util.function.BiConsumer;

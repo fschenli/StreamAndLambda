@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.stream.collectionSort;
+package evolution.collectionSort;
 
 import java.util.Arrays;
 import java.util.List;

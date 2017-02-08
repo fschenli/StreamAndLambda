@@ -1,4 +1,4 @@
-package com.winterbe.java8.samples.stream.collectionSort;
+package evolution.collectionSort;
 
 public class AnyEntity {
 	private String name;
