@@ -1,4 +1,4 @@
-package evolution.collectionSort;
+package evolution.entitySort;
 
 public class AnyEntity {
 	private String name;
