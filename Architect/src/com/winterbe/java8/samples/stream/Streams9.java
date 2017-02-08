@@ -21,4 +21,9 @@ public class Streams9 {
 		.sorted()
 		.forEach(System.out::println);
 	}
+	
+	@Test
+	public void test2() {
+		
+	}
 }
