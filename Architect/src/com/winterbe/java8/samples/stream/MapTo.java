@@ -7,13 +7,10 @@ import java.util.stream.Stream;
 /**
  * @author Benjamin Winterberg
  */
-public class Streams8 {
+public class MapTo {
 
     public static void main(String[] args) {
-        Arrays.asList("a1", "a2", "a3")
-            .stream()
-            .findFirst()
-            .ifPresent(System.out::println);
+        
 
         Stream.of("a1", "a2", "a3")
             .map(s -> s.substring(1))
